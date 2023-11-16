@@ -1,0 +1,106 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px){
+    .container {
+        flex-direction: column;
+    }
+
+    h1{
+        font-family: serif;
+        font-size: 2rem !important;        /* font-family:serif; */
+        /* background-color: red; */
+    }
+
+}
+
+@media screen and (max-width: 768px) {}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+} 
+
+@media only screen and (max-width: 162px){
+    .head{
+        background-color: red;
+        font-size: 0.5rem !important;        
+    }
+    
+
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(https://img.freepik.com/premium-photo/advanced-communication-global-internet-network-connection-smart-city_31965-28476.jpg?w=826); */
+    background-color: blueviolet;
+    /* background-image: url(back.jpg); */
+}
+
+.head{
+    display: flex;
+    /* color:black/; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    font-size: 6rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 200px;
+
+}
+.buttons{
+    width: 130px;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.514);
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+    border: 10px solid darkgray;
+    border-radius: 10px;
+    outline: none;
+    padding-top: 50px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 350px;
+}
+
+.pressed{
+    box-shadow: 0 3px 0 4px #dbedf3;
+    opacity: 0.5;
+}
+
